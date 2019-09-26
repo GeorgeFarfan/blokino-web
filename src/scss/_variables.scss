@@ -1,0 +1,37 @@
+$blokino_font_family: "" Avenir ", Helvetica, Arial, sans-serif";
+$blokino_footer_color: #3a3333;
+$btn_github: #38904f;
+$btn_started: #60122c;
+$color_background: #5e1c33;
+$color_nav: #d8d8d4;
+$color_white: white;
+$color_black: black;
+$win_download_color: #556fb5;
+$linux_download_color: #e97a7a;
+$bumper_color: #cc2828;
+$button_color: #cc28a3;
+$display_msg_color: #a3cc28;
+$led_color: #a3cc28;
+$matrix_leds_color: #cc5128;
+$switch_color: #cc287a;
+$program_section_color: #28a3cc;
+$keypad_color: #cc2851;
+$potentiometer_color: #287acc;
+$sensor_motion_color: #7acc28;
+$sensor_prox-badge: #28cc7a;
+$motor-badge: #2851cc;
+$joystick-badge: #28cc7a;
+$servomotor-badge: #28cccc;
+.border-space {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+.img-border {
+    border: 1px solid #c5c5c5;
+}
+
+.title-format {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,3 @@
+Pasos para instalar y usar Blokino:
+- Instalar Blokino.exe en el equipo.
+- Abrir en modo administrador a Blokino.

@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Blokino
+Comment=Blokino - IDE para programar en bloques. 
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sudo /opt/Blokino/blokino"
+Terminal=false
+Type=Application
+Icon=blokino
+StartupWMClass=Blokino
+Categories=Utility;
+Name[en_US]=blokino.desktop
