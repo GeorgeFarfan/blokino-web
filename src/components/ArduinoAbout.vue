@@ -1,12 +1,12 @@
 <template>
-  <div class="mt-4">
-    <div id="arduino-doc">
-      <div>
+ 
+    <div class="arduino-doc">
+     
         <h1 class="text-center font-weight-bold title-format">¿Qué es Arduino?</h1>
         <img
           src="../assets/arduino-logo-2.png"
-          width="40%"
-          heigth="40%"
+          width="20%"
+          heigth="20%"
           class="rounded float-center mt-3"
           alt="..."
         >
@@ -20,9 +20,9 @@
 </p>
          <p class="text-left mt-4">          El proyecto nació en 2003, cuando varios estudiantes del Instituto de Diseño Interactivo de Ivrea, Italia, con el fin de facilitar el acceso y uso de la electrónico y programación. Lo hicieron para que los estudiantes de electrónica tuviesen una alternativa más económica a las populares BASIC Stamp, unas placas que por aquel entonces valían más de cien dólares, y que no todos se podían permitir.
           El resultado fue Arduino, una placa con todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador, y que puede ser programada tanto en Windows como macOS y GNU/Linux. Un proyecto que promueve la filosofía 'learning by doing', que viene a querer decir que la mejor manera de aprender es cacharreando.</p>
-      </div>
+     
     </div>
-  </div>
+ 
 </template>
 
 <script>
@@ -36,4 +36,10 @@ export default {
 </script> 
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.arduino-doc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>

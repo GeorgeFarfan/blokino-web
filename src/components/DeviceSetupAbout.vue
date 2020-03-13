@@ -1,14 +1,14 @@
 <template>
-  <div class="mt-4">
-    <div id="devices-config">
+  <div class="devices-setup">
+ 
         <h1 class="text-center font-weight-bold title-format">Preparar dispositivos</h1>
         <p class="text-left mt-4">
           Para poder configurar los dispositivos, se debe conectar el dispositivo <strong>Arduino UNO</strong> al ordenador. Una vez que el dispositivo este conectado, seleccionar alguno del listado. La instalación comienza a realizarse, en estos momentos hay que esperar hasta que se termine la instalación. En esta instalación se esta configurando el dipositivo Arduino UNO instalandole la versión correcta de <strong>Firmata</strong>.
         </p>
             <img
           src="../assets/device/modal-show-devices.png"
-          width="60%"
-          heigth="60%"
+          width="30%"
+          heigth="30%"
           class="rounded float-center m-4 img-border"
           alt="..."
         >
@@ -19,8 +19,8 @@
 
             <img
           src="../assets/device/modal-show-error-devices.png"
-          width="60%"
-          heigth="60%"
+          width="20%"
+          heigth="20%"
           class="rounded float-center m-4 img-border"
           alt="..."
         >
@@ -32,13 +32,12 @@
 
                   <img
           src="../assets/device/modal-setup-success.png"
-          width="60%"
-          heigth="60%"
+          width="30%"
+          heigth="30%"
           class="rounded float-center m-4 img-border"
           alt="..."
         >
-
-    </div>
+ 
   </div>
 </template>
 
@@ -54,5 +53,12 @@ export default {
 <style scoped lang="scss">
 
 @import "../scss/_variables.scss";
+
+.devices-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 </style>

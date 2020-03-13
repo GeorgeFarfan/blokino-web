@@ -29,18 +29,12 @@ export default new Router({
         },
         {
             path: "/get_started",
-            name: "get_started",
+            name: "vamos-a-programar",
             component: GetStarted
         },
         {
-            path: "/projects",
-            name: "robots",
-            component: Robots
-        },
-
-        {
             path: "/download",
-            name: "download",
+            name: "descarga",
             component: Download
         }
     ]

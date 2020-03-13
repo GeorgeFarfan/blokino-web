@@ -1,18 +1,11 @@
 <template>
-  <b-container fluid class="bv-example-row">
-    <b-row class="mt-5">
-      <b-col md="2" offset-md="1">
-        <DocumentList></DocumentList>
-      </b-col>
-      <b-col md="5" offset-md="1">
+    <div class="about">
         <BlokinoAbout></BlokinoAbout>
         <ArduinoAbout></ArduinoAbout>
         <DeviceAbout></DeviceAbout>
         <DevicesSetupAbout></DevicesSetupAbout>
-        <CircuitSetupAbout></CircuitSetupAbout>  
-      </b-col>
-    </b-row>
-  </b-container>
+        <CircuitSetupAbout></CircuitSetupAbout>      
+    </div>
 </template>
 
 <script>
@@ -36,4 +29,10 @@ export default {
 </script>
 <style scoped lang="scss">
   @import "../scss/_variables.scss";
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 </style>;

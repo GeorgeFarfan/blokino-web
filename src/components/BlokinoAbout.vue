@@ -1,12 +1,12 @@
 <template>
-  <div class="mt-4">
-    <div id="blokino-get-started">
+  <div  class="get-started">
+ 
       <h1 class="text-center font-weight-bold title-format">¿Qué es Blokino?</h1>
 
       <img
         src="../assets/blokino-logo-violet.png"
-        width="40%"
-        heigth="40%"
+        width="20%"
+        heigth="20%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -20,8 +20,8 @@
 
       <img
         src="../assets/javascript-logo.png"
-        width="30%"
-        heigth="30%"
+        width="20%"
+        heigth="20%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -32,8 +32,8 @@
 
       <img
         src="../assets/electron-logo.png"
-        width="30%"
-        heigth="30%"
+        width="20%"
+        heigth="20%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -44,8 +44,8 @@
 
       <img
         src="../assets/firmata.png"
-        width="40%"
-        heigth="40%"
+        width="20%"
+        heigth="20%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -58,8 +58,8 @@
 
       <img
         src="../assets/arduino-firmata.png"
-        width="60%"
-        heigth="60%"
+        width="20%"
+        heigth="20%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -67,8 +67,7 @@
      <p
         class="text-left mt-4"
       >El objetivo de firmata es permitir controlar completamente Arduino desde software instalado en un ordenador, sin escribir una sola línea de código de Arduino.</p>
-
-    </div>
+ 
   </div>
 </template>
 
@@ -83,4 +82,10 @@ export default {
 </script> 
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>
