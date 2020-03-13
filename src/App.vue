@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <div class="app__navbar">
-        <router-link to="/" class="app__navbar__link-main">Blokino</router-link>
+        <router-link to="/" class="app__navbar__link-main">Inicio</router-link>
         <router-link to="/blokino" class="app__navbar__link">¿Qué es Blokino?</router-link>      
         <router-link to="/kit" class="app__navbar__link">Kit de Blokino</router-link>
         <router-link to="/get_started" class="app__navbar__link">Vamos a programar</router-link>
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   &__navbar {
     padding-top: 3em;
     padding-bottom: 3em; 
@@ -39,14 +40,14 @@
     }
     &__link {
       font-size: 17px;
-      margin:0px 5px 0px 5px;
+      margin:0px 15px 0px 15px;
       color: rgb(144, 96, 114);
       text-decoration: none;  
     }
     &__link:hover {
       color: $board-scale-4;
       font-weight: 500;
-
+      text-decoration: underline;
     }
   }
 }
