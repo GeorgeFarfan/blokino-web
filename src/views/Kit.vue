@@ -9,7 +9,7 @@
           >Para poder realizar tus proyectos de Blokino, necesitas de un kit armado y probado. Este kit estara compuesto de componentes electronicos que fueron analizados para que comprobar la compatibilidad con los bloques funcionales que proveé Blokino.</p>
         </div>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/arduino-uno.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/arduino-uno.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5 class="">Arduino UNO</h5>
             <p
@@ -22,7 +22,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/protoboard.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/protoboard.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5 class="">Protoboard</h5>
             <p
@@ -35,7 +35,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/cables-dupont.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/cables-dupont.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5 class="">Cables Dupont</h5>
             <p>
@@ -49,7 +49,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/leds.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/leds.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5 class="">LEDS</h5>
             <p
@@ -62,7 +62,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/leds-rgb.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/leds-rgb.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>LEDS-RGB</h5>
             <p
@@ -75,7 +75,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/button.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/button.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Botones</h5>
             <p
@@ -88,7 +88,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/bumper.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/bumper.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Pulsadores</h5>
             <p
@@ -101,7 +101,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/switch.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/switch.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Interruptores</h5>
             <p
@@ -114,7 +114,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/buzzer.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/buzzer.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Zumbadores</h5>
             <p
@@ -127,7 +127,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/joystick.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/joystick.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Joystick</h5>
             <p
@@ -140,7 +140,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/matrix-leds.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/matrix-leds.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Matriz de Luces</h5>
             <p>
@@ -154,7 +154,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/motors.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/motors.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Motores</h5>
             <p
@@ -167,7 +167,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/potentiometer.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/potentiometer.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Potenciometro</h5>
             <p
@@ -180,7 +180,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/lcd.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/lcd.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Consola de mensajes</h5>
             <p>
@@ -194,7 +194,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/sensor-motion.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/sensor-motion.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Sensor de movimiento</h5>
             <p
@@ -207,7 +207,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/sensor-proximity.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/sensor-proximity.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Sensor de proximidad</h5>
             <p>
@@ -221,7 +221,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/servomotors.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/servomotors.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Servomotores</h5>
             <p
@@ -234,7 +234,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/keyboard-2.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/keyboard-2.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Teclado</h5>
             <p>
@@ -249,7 +249,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/resistence.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/resistence.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Resistencias</h5>
             <p
@@ -262,7 +262,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/transistor-2n2222.jpg" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/transistor-2n2222.jpg" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Transistores</h5>
             <p
@@ -275,7 +275,7 @@
         </div>
         <hr>
         <div class="kit__card">
-          <img class="kit__card__image" width=200 height=200 src="../assets/kit/diodo-1n4001.png" alt="Card image cap">
+          <img class="kit__card__image" width="20%" height="20%" src="../assets/kit/diodo-1n4001.png" alt="Card image cap">
           <div class="kit__card__description">
             <h5>Diodos</h5>
             <p
