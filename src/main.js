@@ -2,10 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import "./registerServiceWorker";
-import BootstrapVue from "bootstrap-vue";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import "./registerServiceWorker"; 
 import vueScrollto from 'vue-scrollto'
 import VueCodemirror from 'vue-codemirror'
  
@@ -16,8 +13,7 @@ Vue.use(VueCodemirror, /* {
     events: ['scroll', ...]
   } */)
 Vue.config.productionTip = false;
-Vue.use(vueScrollto)
-Vue.use(BootstrapVue);
+Vue.use(vueScrollto) 
 new Vue({
     router,
     store,

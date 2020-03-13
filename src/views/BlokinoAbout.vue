@@ -32,7 +32,8 @@ export default {
     return {};
   }
 };
+
 </script>
 <style scoped lang="scss">
-@import "../scss/_variables.scss";
+  @import "../scss/_variables.scss";
 </style>;

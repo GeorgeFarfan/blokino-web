@@ -1,31 +1,12 @@
 <template>
-  <div id="app">
-    <div class="custom-nav">
-      <b-navbar toggleable="lg" type="dark">
-        <b-navbar-brand>
-          <router-link to="/" class="link-main">Blokino</router-link>
-        </b-navbar-brand>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item>
-              <router-link to="/blokino" class="link">¿Qué es Blokino?</router-link>
-            </b-nav-item>
-            <b-nav-item>
-              <router-link to="/kit" class="link">Kit de Blokino</router-link>
-            </b-nav-item>
-            <b-nav-item>
-              <router-link to="/get_started" class="link">Vamos a programar</router-link>
-            </b-nav-item>
-            <b-nav-item>
-              <router-link to="/projects" class="link">Proyectos</router-link>
-            </b-nav-item>
-            <b-nav-item>
-              <router-link to="/download" class="link">Descargar</router-link>
-            </b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
+  <div class="app">
+    <div class="app__navbar">
+        <router-link to="/" class="app__navbar__link-main">Blokino</router-link>
+        <router-link to="/blokino" class="app__navbar__link">¿Qué es Blokino?</router-link>      
+        <router-link to="/kit" class="app__navbar__link">Kit de Blokino</router-link>
+        <router-link to="/get_started" class="app__navbar__link">Vamos a programar</router-link>
+        <router-link to="/projects" class="app__navbar__link">Proyectos</router-link>
+        <router-link to="/download" class="app__navbar__link">Descargar</router-link>
     </div>
     <router-view/>
   </div>
@@ -35,51 +16,41 @@
 
 @import "./scss/_variables.scss";
  
-#app {
-  font-family: $blokino_font_family;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
-.custom-nav {
-  border-bottom: solid 0.5px $color_nav;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+.app {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__navbar {
+    padding-top: 3em;
+    padding-bottom: 3em; 
+    &__link-main {
+      margin-right: 10px;
+      color: $color_nav;
+      background-color: $color_background;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.7em;
+      font-size: 25px;
+      border-radius: 5px;
+    }
+    &__link-main:hover {
+      background-color: $board-scale-4;
+    }
+    &__link {
+      font-size: 17px;
+      margin:0px 5px 0px 5px;
+      color: rgb(144, 96, 114);
+      text-decoration: none;  
+    }
+    &__link:hover {
+      color: $board-scale-4;
+      font-weight: 500;
+
+    }
+  }
 }
 
-.link-main {
-  color: $color_nav;
-  background-color: $color_background;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.8em;
-  border-radius: 10px;
-}
 
-.link-main:hover {
-  color: $color_background;
-  background-color: $color_white;
-  text-decoration: none;
-  border: 1px solid $color_background;
-  font-weight: bold;
-  padding: 0.8em;
-  border-radius: 10px;
-}
-
-.link {
-  color: rgb(144, 96, 114);
-  text-decoration: none;
-}
-.link:active {
-  color: $color_background;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: $color_background;
-  text-decoration: none;
-}
-.navbar-toggler {
-  background-color: $color_background !important;
-}
+ 
 </style>
