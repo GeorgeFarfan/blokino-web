@@ -5,7 +5,6 @@
         <router-link to="/blokino" class="app__navbar__link">¿Qué es Blokino?</router-link>      
         <router-link to="/kit" class="app__navbar__link">Kit de Blokino</router-link>
         <router-link to="/get_started" class="app__navbar__link">Vamos a programar</router-link>
-        <router-link to="/projects" class="app__navbar__link">Proyectos</router-link>
         <router-link to="/download" class="app__navbar__link">Descargar</router-link>
     </div>
     <router-view/>
