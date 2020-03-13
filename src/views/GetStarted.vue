@@ -1,41 +1,30 @@
 <template>
-  <div>
-    <b-container fluid class="bv-example-row">
-      <b-row class="mt-5">
-        <b-col md="2" offset-md="1">
-          <BlocksList></BlocksList>
-        </b-col>
-        <b-col md="5" offset-md="1">
-          <ProgramSection></ProgramSection>
-          <Variable></Variable>
-          <div id="circuits">
-            <h1 class="text-center font-weight-bold title-format">Bloques funcionales</h1>
-            <div class="m-4">
-              <p class="text-center">
-                Los bloques funcionales son las piezas principales que componen a
-                <strong>Blokino</strong>. Cada bloque funcional se lo identifica con una funcionalidad definida como así también por colores distintos.
-              </p>
-            </div>
-          </div>
-          <Led></Led>
-          <Buttons></Buttons>
-          <Bumper></Bumper>
-          <Switchs></Switchs>
-          <Matriz></Matriz>
-          <DisplayMessage></DisplayMessage>
-          <Zumbador></Zumbador>
-          <Potentiometer></Potentiometer>
-          <Joystick></Joystick>
-          <Servomotors></Servomotors>
-          <Keyboard></Keyboard>
-          <SensorMotion></SensorMotion>
-          <SensorProximity></SensorProximity>
-          <Motors></Motors>
-        </b-col>
-      </b-row>
-    </b-container>
-    <Footer></Footer>
-  </div>
+ 
+    <div id="circuits">
+      <div>
+        <h1>Bloques funcionales</h1>
+        <p>
+          Los bloques funcionales son las piezas principales que componen a
+          <strong>Blokino</strong>.
+           Cada bloque funcional se lo identifica con una funcionalidad definida como así también por colores distintos.
+        </p>
+      </div>
+  
+    <Led></Led>
+    <Buttons></Buttons>
+    <Bumper></Bumper>
+    <Switchs></Switchs>
+    <Matriz></Matriz>
+    <DisplayMessage></DisplayMessage>
+    <Zumbador></Zumbador>
+    <Potentiometer></Potentiometer>
+    <Joystick></Joystick>
+    <Servomotors></Servomotors>
+    <Keyboard></Keyboard>
+    <SensorMotion></SensorMotion>
+    <SensorProximity></SensorProximity>
+    <Motors></Motors>
+   </div>
 </template>
 
 <script>
@@ -82,4 +71,10 @@ export default {
 </script>
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.circuits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>;
