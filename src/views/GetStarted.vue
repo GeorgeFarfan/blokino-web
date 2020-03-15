@@ -1,7 +1,6 @@
 <template>
- 
-    <div id="circuits">
-      <div>
+    <div class="circuits">
+      <div class="circuits__header">
         <h1>Bloques funcionales</h1>
         <p>
           Los bloques funcionales son las piezas principales que componen a
@@ -73,8 +72,14 @@ export default {
 @import "../scss/_variables.scss";
 
 .circuits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    &__header {
+      width: 50%;
+      font-size: 30px;
+    }
 }
 </style>;

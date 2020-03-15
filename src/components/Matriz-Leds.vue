@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4">
-    <div id="matriz-leds-doc">
+  <div class="matrix">
+  
       <h3 class="text-left font-weight-bold title-format">MATRIZ-LEDS</h3>
       <div>
         <p class="text-left mt-2">
@@ -255,7 +255,7 @@
         <codemirror :value="code_matrix_clear" :options="cmOptions" class="codemirror-blokino"></codemirror>
         <hr class="m-5">
       </div>
-    </div>
+ 
   </div>
 </template>
 
@@ -303,6 +303,13 @@ export default {
 <style scoped lang="scss">
 
 @import "../scss/_variables.scss";
+
+.matrix {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
 .codemirror-blokino {
   text-align: left;

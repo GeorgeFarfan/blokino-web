@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4" id="buzzer-doc">
+  <div class="buzzer">
     <div>
       <h3 class="text-left font-weight-bold title-format">Zumbadores</h3>
     </div>
@@ -130,6 +130,12 @@ export default {
 
 @import "../scss/_variables.scss";
 
+.buzzer {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 .codemirror-blokino {
   text-align: left;
   width: 100%;

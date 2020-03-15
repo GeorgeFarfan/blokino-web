@@ -1,5 +1,5 @@
 <template>
- <div class="mt-4" id="bumper-doc">
+ <div class="bumper">
           <div >
                 <h3 class="text-left font-weight-bold title-format">Pulsadores</h3>
             </div>
@@ -104,14 +104,20 @@ export default {
 
 @import "../scss/_variables.scss";
 
+
+.bumper {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
+
 .codemirror-blokino {
   text-align: left;
   width: 100%;
   font-size: 20px;
   display: inline-block;
-}
-
- 
+} 
 
 .bumper-badge{
     background-color: $bumper_color;

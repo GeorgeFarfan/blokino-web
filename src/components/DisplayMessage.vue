@@ -1,5 +1,5 @@
 <template>
- <div class="mt-4" id="bumper-doc">
+ <div class="message-console">
           <div >
                 <h3 class="text-left font-weight-bold title-format">Consola de Mensajes</h3>
                 <p class="text-left">Las consolas de mensajes o tambien llamados Display LCD(Pantalla de cristal liquido), son pantallas 
@@ -80,6 +80,13 @@ export default {
 <style scoped lang="scss">
 
 @import "../scss/_variables.scss";
+
+.message-console {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
  .codemirror-blokino {
   text-align: left;

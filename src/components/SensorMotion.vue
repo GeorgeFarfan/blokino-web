@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4" id="sensor-motion-doc">
+  <div class="sensor-motion">
     <div>
       <h3 class="text-left font-weight-bold title-format">Sensores de movimiento</h3>
     </div>
@@ -143,6 +143,13 @@ export default {
 </script> 
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.sensor-motion {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
 .codemirror-blokino {
   text-align: left;

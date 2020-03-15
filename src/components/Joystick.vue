@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4" id="joystick-doc">
+  <div class="joystick">
     <div>
       <h3 class="text-left font-weight-bold title-format">Joystick</h3>
     </div>
@@ -196,6 +196,13 @@ export default {
 </script> 
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.joystick {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
 .codemirror-blokino {
   text-align: left;

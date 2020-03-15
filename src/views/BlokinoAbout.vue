@@ -34,5 +34,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 0px 60px 0px;
   }
 </style>;

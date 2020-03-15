@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4" id="sensor-proximity-doc">
+  <div class="sensor-proximity">
     <div>
       <h3 class="text-left font-weight-bold title-format">Sensores de proximidad</h3>
     </div>
@@ -172,6 +172,13 @@ export default {
 </script> 
 <style scoped lang="scss">
 @import "../scss/_variables.scss";
+
+.sensor-proximity {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
 .codemirror-blokino {
   text-align: left;

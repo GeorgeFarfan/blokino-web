@@ -7,8 +7,8 @@
       </p>
       <img
         src="../assets/arduino-one.png"
-        width="20%"
-        heigth="20%"
+        width="15%"
+        heigth="15%"
         class="rounded float-center mt-3"
         alt="..."
       >
@@ -28,10 +28,14 @@ export default {
 };
 </script> 
 <style scoped lang="scss">
-@import "../scss/_variables.scss";
-.soported-devices {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  @import "../scss/_variables.scss";
+  .soported-devices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 25px;
+    width: 50%;
+  }
 </style>

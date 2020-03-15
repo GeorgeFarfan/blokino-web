@@ -1,5 +1,5 @@
 <template>
- <div class="mt-4" id="switch-doc">
+ <div class="switch">
             <div >
                 <h3 class="text-left font-weight-bold title-format">Interruptores</h3>
             </div>
@@ -121,6 +121,13 @@ export default {
 <style scoped lang="scss">
 
 @import "../scss/_variables.scss";
+
+.switch {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
  .codemirror-blokino {
   text-align: left;

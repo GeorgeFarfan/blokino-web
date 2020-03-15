@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4">
-    <div id="leds-doc">
+  <div class="led">
+    <div id="leds">
       <h3 class="text-left font-weight-bold title-format">LEDS</h3>
       <p class="text-left mt-4">
         Tambien llamados
@@ -319,7 +319,7 @@
       </div>
     </div>
 
-    <div id="leds-rgb-doc" class="mt-5">
+    <div id="leds-rgb" class="mt-5">
       <h3 class="text-left font-weight-bold title-format">LEDS-RGB</h3>
       <div class="mt-4">
         <p class="text-left mt-4">
@@ -440,6 +440,13 @@ export default {
 <style scoped lang="scss">
 
 @import "../scss/_variables.scss";
+
+.led {
+  width: 50%;
+  p {
+    font-size: 25px;
+  }
+}
 
 .codemirror-blokino {
   text-align: left;
