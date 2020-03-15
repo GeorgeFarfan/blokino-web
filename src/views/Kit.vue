@@ -290,10 +290,8 @@
  
 </template>
 <script>
-import Footer from "@/components/Footer";
 export default {
-  name: "Kit",
-  components: { Footer },
+  name: "Kit", 
   methods: {}
 };
 </script>

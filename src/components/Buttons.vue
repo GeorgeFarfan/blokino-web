@@ -144,7 +144,7 @@ export default {
 .buttons {
   width: 50%;
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .codemirror-blokino {

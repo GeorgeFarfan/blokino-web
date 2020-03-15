@@ -79,7 +79,7 @@ export default {
     padding: 50px 0px 50px 0px;
     &__header {
       width: 50%;
-      font-size: 30px;
+      font-size: 25px;
     }
 }
 </style>;
