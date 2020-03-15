@@ -3,13 +3,7 @@
   "short_name": "app",
   "icons": [
     {
-      "src": "./blokino-logo-violet.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./blokino-logo-violet.png",
-      "sizes": "512x512",
+      "src": "/public/blokino.png",
       "type": "image/png"
     }
   ],
